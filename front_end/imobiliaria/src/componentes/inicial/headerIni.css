@@ -1,0 +1,32 @@
+.conteinerBox
+{
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+    background: rgb(45,37,37);
+    background: linear-gradient(90deg, rgba(45,37,37,1) 0%, rgba(38,35,35,1) 46%, rgba(105,104,133,1) 100%);
+    align-items: center;
+}
+
+
+.conteinerBox img
+{
+    margin-left: 1.5vw;
+    display: flex;
+}
+
+.conteinerBox ul
+{
+    list-style: none;
+}
+
+.conteinerBox ul
+{
+    margin-right: 3.5vw;
+}
+
+.botaoI
+{
+    background: none;
+    color: white;
+}

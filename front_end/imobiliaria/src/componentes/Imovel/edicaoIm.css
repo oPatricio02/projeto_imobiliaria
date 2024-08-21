@@ -1,0 +1,68 @@
+.tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  }
+  
+  .formulario {
+    width: 30vw;
+    padding: 20px;
+    background-color: #ededed;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 10px #494949;
+  }
+
+  .formulario img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  .endereco {
+    margin-top: 20px;
+  }
+
+  .formulario .endereco h4 {
+    margin: 0;
+  }
+
+  .formulario .endereco p {
+    margin: 0;
+  }
+
+  .formulario label {
+    font-weight: bold;
+  }
+  
+  .inputs {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .botaoA {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .botaoA:hover {
+    background-color: #555;
+  }
+  
+  .carregando {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+  }

@@ -1,0 +1,27 @@
+.conteinerInicial
+{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.listaImov
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2.5vw;
+}
+
+.notifica
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    
+}
+
+.btn-notifica
+{
+    cursor: pointer;
+}

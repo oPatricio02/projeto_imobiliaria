@@ -1,0 +1,80 @@
+.footerr{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    position: bottom;
+    background: rgb(45,37,37);
+    background: linear-gradient(90deg, rgba(45,37,37,1) 0%, rgba(38,35,35,1) 46%, rgba(105,104,133,1) 100%);
+    padding: 5px;
+    height: 10vh;
+    color: white;
+}
+
+.badgesfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-right: 1.5%;
+}
+
+.iconsfooter{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    padding-right: 5vw;
+}
+
+.redesfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.dfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    padding-right: 5vw;
+    gap: 15px;
+}
+
+@media(max-width:990px) {
+    .badgesfooter{
+        flex-direction: column;
+    }
+
+    .rubfooter{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:620px){
+    .redesfooter{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:550px) {
+    .footerr{
+        flex-direction: column;
+        height: fit-content;
+        gap: 10px;
+    }
+    .rubfooter{
+        font-size: 15px;
+        width: auto;
+    }
+    .badgesfooter{
+        width: auto;
+    }
+    .redesfooter{
+        width: auto;
+    }
+}

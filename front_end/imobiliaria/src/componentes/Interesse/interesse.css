@@ -1,0 +1,81 @@
+.telaInt
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.backForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    height: 37vw;
+}
+
+.formularioInt
+{
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 23vw;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 9px 2px 25px -5px rgba(0,0,0,0.75);
+}
+
+.formularioInt input
+{
+    width: 87%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 1.5vw;
+    border: none;
+    background: #fff;
+}
+
+.formularioInt textarea
+{
+    min-height: 25%;
+    height: 25% ;
+    max-height: 25%;
+    min-width: 87%;
+    width: 87%;
+    margin-top: 1vw;
+    max-width: 87%;
+    border-radius: 5px;
+    border: none;
+    padding: 18px;
+}
+
+.formularioInt button
+{
+    margin-top: 1.5vw;
+    width: 87%;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: rgb(230, 39, 39);
+    color: white;
+    font-weight: bold;
+}
+
+.formularioInt button:hover
+{
+    background: red;
+}
+.obrigatorio
+{
+    color: red;
+    font-size: 11px;
+    margin-top: 0.5vw;
+    margin-left: 70%;
+    
+}

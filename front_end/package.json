@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "react-intl-currency-input": "^0.3.3"
+  },
+  "dependencies": {
+    "react-input-mask": "^2.0.4"
+  }
+}

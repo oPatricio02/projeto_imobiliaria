@@ -1,0 +1,44 @@
+.boxPrincipal
+{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 300px; /* Defina a largura desejada para suas boxes */
+    height: 400px; /* Defina a altura desejada para suas boxes */
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.boxPrincipal:hover
+{
+    box-shadow: 7px -6px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px -6px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px -6px 22px 0px rgba(0,0,0,0.75);;
+}
+
+.boxPrincipal img
+{
+    height: 140px;
+    width: 300px;
+}
+
+.conteudos
+{
+    margin-left: 1.5vw;
+}
+
+.opcaoBox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+    color:blue;
+}
+
+.opcaoBox a
+{
+    list-style: none;
+}
